@@ -1214,8 +1214,17 @@
         color: rgba(255, 255, 255, 1);
     }
 
+    .cart_text {
+        margin-top: 10px;
+    }
+
     .cart_logo {
         margin-left: 90px;
+        margin-top: 10px;
+    }
+
+    .header_ul::after {
+        content: none;
     }
 
     .unique_background {
