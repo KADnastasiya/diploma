@@ -1,0 +1,1867 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 13px 0 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'pacifico';
+    max-width: 109px;
+    font-size: 33px;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+.check{
+    width: 30px;
+    height: 3px;
+    background: black;
+    opacity: 0.6;
+}
+
+.check:not(last-ot-type){
+    margin-bottom: 4px;
+}
+
+.checkbox-menu, .check-wrapper{
+    display: none;
+}
+
+.header_nav{
+    max-width: 455px;
+    padding-top: 13px;
+}
+
+.header_link{
+    font-family: 'poppins';
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: rgba(108, 108, 108, 1);
+}
+
+.header_link:hover, .cart_text:hover{
+    color: rgba(172, 19, 19, 1);
+    transition: 300ms;
+}
+
+.header_ul::after{
+    content: '';
+    height: 38px;
+    width: 1px;
+    background: rgba(235, 235, 235, 1);
+    margin-right: 15px;
+}
+
+.cart_logo{
+    text-decoration: none;
+}
+
+.cart_text{
+    font-family: 'Libre Franklin';
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 5px;
+}
+
+.unique{
+    position: relative;
+}
+
+.unique_background{
+    background-image: url(../img/unique/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 94px 0 114px;
+}
+
+.unique_container{
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.unique_info{
+    max-width: 576px;
+}
+
+.unique_pretitle{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:rgba(215, 116, 116, 1);
+    margin-bottom: 12px;
+}
+
+.unique_title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 14px;
+}
+
+.unique_title-1{
+    display: inline-block;
+    font-family: 'Playfair Display';
+    font-size: 68px;
+    line-height: 68px;
+    color: rgba(172, 19, 19, 1);
+}
+
+.unique_text{
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(108, 108, 108, 1);
+    margin-bottom: 51px;
+}
+
+.button{
+    width: 201px;
+    height: 62px;
+    background: rgba(172, 19, 19, 1);
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.button:hover{
+    background-color: rgba(172, 19, 19, 0);
+    color:rgba(172, 19, 19, 1);
+    border: solid rgba(172, 19, 19, 1);
+    transition-duration: 400ms;
+    transform: scale(1.3);
+    transition-timing-function: ease-out;
+}
+
+.unique_img{
+    max-width: 784px;
+    margin: 127px 33px 136px 623px;
+}
+
+.unique_container > div:first-of-type{
+    z-index: 1;
+}
+
+.unique_container > div:last-of-type{
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    bottom: -115px;
+}
+
+.categories{
+    position: relative;
+}
+
+.categories_content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.categories_name{
+    max-width: 1152px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.categories_pretitle{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(215, 116, 116, 1);
+    margin-bottom: 8px;
+}
+
+.categories_title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.categories_title-1{
+    display: inline-block;
+    font-family: 'Playfair Display';
+    font-size: 68px;
+    line-height: 68px;
+    color: rgba(172, 19, 19, 1);
+}
+
+.categories_products{
+    max-width: 1172px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 151px;
+    justify-items: center;
+}
+
+.products_item{
+    width: 240px;
+    height: 240px;
+    background: rgba(228, 179, 102, 1);
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    border-radius: 240px;
+    box-sizing: border-box;
+}
+
+.products_item:hover{
+    transition-duration: 400ms;
+    transform: scale(1.2);
+    transition-timing-function: ease-out;
+}
+
+.item_img{
+    text-align: center;
+    margin: 40px auto 0;
+}
+
+.item_text{
+    max-width: 51px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.products_item-orange{
+    background: rgba(240, 91, 16, 1);
+}
+
+.item_text-mugs{
+    max-width: 48px;
+}
+
+.products_item-red{
+    background: rgba(162, 16, 16, 1);
+}
+
+.item_text-plates{
+    max-width: 59px;
+}
+
+.categories_description{
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+.description_box{
+    max-width: 509px;
+}
+
+.description_title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+}
+
+.description_text{
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(108, 108, 108, 1);
+    margin: 26px 0 31px;
+}
+
+.categories_hand-craft{
+    max-width: 213px;
+    position: absolute;
+    top: 390px;
+    box-sizing: border-box;
+}
+
+.hand-craft_text, .featured_text, .collection_products-text, .touch-text{
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(219, 219, 219, 1);
+    transform: rotate(-90deg);
+}
+
+.categories::after, .products::after, .news::after, .contacts::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: rgba(235, 235, 235, 1);
+}
+
+.products{
+    position: relative;
+}
+
+.products_content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 221px 0 120px;
+}
+
+.pottery{
+    max-width: 1172px;
+    margin: 0 auto 220px;
+}
+
+.products_background{
+    max-width: 500px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+
+.products_info{
+    max-width: 396px;
+    margin-top: 20px;
+    margin-right: 179px;
+}
+
+.products_title{
+    max-width: 252px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 23px;
+}
+
+.products_text{
+    max-width: 388px;
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(108, 108, 108, 1);
+    margin-bottom: 27px;
+}
+
+.products_link{
+    max-width: 90px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+.pottery-info::before{
+    content: url(../img/products/pottery.png);
+    width: 250px;
+    position: absolute;
+    left: 250px;
+    top: 80px;
+}
+
+.ceramic{
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+.products_background-ceramic{
+    margin-right: 76px;
+    margin-bottom: 28px;
+    margin-left: 0;
+}
+
+.products_info-ceramic{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.products_title-ceramic{
+    max-width: 211px;
+    margin-bottom: 23px;
+}
+
+.products_text-ceramic{
+    max-width: 378px;
+}
+
+.products_info-ceramic::after{
+    content: url(../img/products/ceramic.png);
+    width: 350px;
+    position: absolute;
+    top: 600px;
+    left: 800px;
+}
+
+.featured{
+    max-width: 233px;
+    position: absolute;
+    top: 500px;
+    right: 49px;
+    box-sizing: border-box;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection_content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0 119px;
+    text-align: center;
+}
+
+.collection_name{
+    max-width: 1152px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.collection_pretitle{
+    max-width: 192px;
+    margin: 0 auto 17px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(215, 116, 116, 1);
+}
+
+.collection_title{
+    max-width: 372px;
+    margin: 0 auto 3px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.collection_store{
+    max-width: 1172px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.store_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px 20px;
+    justify-items: center;
+}
+
+.store_item{
+    max-width: 100%;
+    width: 371px;
+    position: relative;
+}
+
+.item_pic{
+    max-width: 370px;
+    margin: 0 auto 5px; 
+}
+
+.item_description{
+    max-width: 371px;
+    text-align: start;
+    padding: 15px 0 15px;
+}
+
+.item_name{
+    max-width: 88px;
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    line-height: 26px;
+    color:rgba(108, 108, 108, 1);
+}
+
+.item_price{
+    max-width: 87px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.store_item::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    right: 1px;
+    background: rgba(235, 235, 235, 1);
+}
+
+.item_name-pottery{
+    max-width: 93px;
+}
+
+.item_name-set{
+    max-width: 118px;
+}
+
+.item_price-set{
+    max-width: 92px;
+}
+
+.item_name-vase{
+    max-width: 125px;
+}
+
+.item_name-bowl{
+    max-width: 76px;
+}
+
+.item_price-bowl{
+    max-width: 88px;
+}
+
+.item_name-pottery-2{
+    max-width: 113px;
+}
+
+.button-collection{
+    width: 214px;
+}
+
+.collection_products{
+    max-width: 273px;
+    position: absolute;
+    top: 808px;
+    left: -30px;
+    box-sizing: border-box;
+}
+
+.shopping{
+    background-image: url(../img/shopping/shopping_bcg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 121px 730px 120px 144px;
+}
+
+.shopping_content{
+    max-width: 100%;
+    width: 566px;
+}
+
+.shopping_pretitle{
+    max-width: 100%;
+    width: 153px;
+    margin-bottom: 7px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(215, 116, 116, 1);
+}
+
+.shopping_title{
+    max-width: 491px;
+    margin-bottom: 13px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.shoping_text{
+    max-width: 100%;
+    width: 421px;
+    margin-bottom: 30px;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(108, 108, 108, 1);
+}
+
+.shopping_text-span{
+    text-decoration: underline;
+    color: rgba(172, 19, 19, 1);
+}
+
+.button-shopping{
+    max-width: 195px;
+}
+
+.news{
+    position: relative;
+}
+
+.news_content{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 122px 0 134px;
+    text-align: center;
+}
+
+.news_img{
+    margin-bottom: 40px;
+}
+
+.news_ptetitle{
+    max-width: 100%;
+    width: 112px;
+    margin: 0 auto 20px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(215, 116, 116, 1);
+}
+
+.news_title{
+    max-width: 1152px;
+    margin: 0 auto 63px;
+    font-family: 'Poppins';
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.news_title-1{
+    max-width: 57px;
+    display: inline-block;
+    font-family: 'Playfair Display';
+    font-size: 68px;
+    line-height: 68px;
+    color: rgba(172, 19, 19, 1);
+}
+
+.news_form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input{
+    width: 320px;
+    height: 45px;
+    padding: 13px 0 12px 10px;
+    text-align: start;
+    border-radius: 2px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    border: 1px solid #EBEBEB;
+}
+
+.input::placeholder{
+    max-width: 161px;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #A1A1A1;
+}
+
+.button-news{
+    width: 175px;
+    height: 45px;
+    background:rgba(0, 0, 0, 1);
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 4px;
+}
+
+.button-news:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgba(0, 0, 0, 1);
+    border: solid rgba(0, 0, 0, 1);
+    transition-duration: 400ms;
+    transform: scale(1);
+    transition-timing-function: ease-out;
+}
+
+.news_input{
+    margin: 40px 0 28px;
+}
+
+.news_input-text{
+    max-width: 161px;
+    margin: 0 auto;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(161, 161, 161, 1);
+}
+
+.checkbox{
+    opacity: 0;
+}
+
+.fake{
+    width: 13px;
+    height: 13px;
+    background:rgba(133, 52, 255, 1);
+    border-radius: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.fake::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 1);
+    left: 10%;
+    top: 50%;
+    opacity: 0;
+    transform: rotate(41deg);
+}
+
+.fake::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 1);
+    left: 25%;
+    top: 37%;
+    opacity: 0;
+    transform: rotate(-52deg);
+}
+
+.checkbox:checked ~ .fake::before, .checkbox:checked ~ .fake::after{
+    opacity: 1;
+    transition: 600ms;
+}
+
+.touch{
+    max-width: 211px;
+    position: absolute;
+    top: 350px;
+    right: 53px;
+    box-sizing: border-box;
+}
+
+.contacts{
+    background-color: rgba(219, 219, 219, 0.1);
+}
+
+.contacts_content{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 121px 0 79px
+}
+
+.contacts_head{
+    max-width: 1152px;
+    margin-bottom: 60px;
+}
+
+.logo_news{
+    margin: 0 auto 30px;
+}
+
+.contacts_head-text{
+    max-width: 317px;
+    margin: 0 auto 10px;
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(108, 108, 108, 1);
+}
+
+.contacts_info{
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+.contacts_email, .contacts_find, .contacts_call{
+    max-width: 100%;
+    width: 371px;
+    text-align: center
+}
+
+.contacts_img{
+    margin: 0 auto 10px;
+}
+
+.contacts_img:hover{
+    transition-duration: 400ms;
+    transform: scale(1.5);
+    transition-timing-function: ease-out;
+}
+
+.contacts_title{
+    max-width: 43px;
+    margin: 0 auto 20px;
+    font-family: 'Poppins';
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contacts_text{
+    max-width: 188px;
+    margin: 0 auto 10px;
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    line-height: 24px;
+    color:rgba(108, 108, 108, 1);
+}
+
+.contacts_img-find{
+    max-width: 35px;
+}
+
+.contacts_text-find{
+    width: 158px;
+    margin: 0 auto;
+}
+
+.contacts_text-find-1{
+    width: 108px;
+    margin: 0 auto;
+}
+
+.contacts_img-call{
+    max-width: 36px;
+}
+
+.contacts_text-call{
+    width: 108px;
+}
+
+.footer_content{
+    padding: 31px 0 19px;
+}
+
+.footer_info{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_text{
+    max-width: 465px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Libre Franklin';
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(108, 108, 108, 1);
+}
+
+.footer_text-1{
+    display: inline-block;
+    color: rgba(0, 0, 0, 1);
+}
+
+.modal-overlay{
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.modal{
+    max-width: 550px;
+    text-align: center;
+    background: rgb(119, 9, 9, 1);
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal_text{
+    font-family: 'Libre Franklin';
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-family: 'Libre Franklin';
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.form_modal{
+    padding: 10px 0;
+}
+
+.input_modal{
+    width: 320px;
+    height: 45px;
+    padding: 13px 0 12px 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px auto 10px;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #EBEBEB;
+}
+
+.button_modal{
+    width: 200px;
+    height: 55px;
+    background:rgba(0, 0, 0, 0.5);
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin: 20px auto 0;
+}
+
+.button_modal:hover{
+    color:rgba(0, 0, 0, 1);
+    border: solid rgba(0, 0, 0, 1);
+    transition-duration: 400ms;
+    transform: scale(1.4);
+    transition-timing-function: ease-out;
+}
+
+#up{
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 70px;
+    background-color:rgb(119, 9, 9, 0.8);
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#up span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    transform: rotate(-90deg) translate(75%, -35%);   
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 1040px;  
+    }
+
+    .header {
+        max-width: 950px;
+    }
+
+    .unique_container {
+        max-width: 950px;
+    }
+
+    .unique_title{
+        font-size: 44px;
+        margin-bottom: 10px;
+    }
+    
+    .unique_title-1{
+        display: block;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    
+    .unique_text{
+        max-width: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .unique_img {
+        margin: 127px 10px 136px 623px;
+    }
+
+    .categories_content{
+        max-width: 950px;
+        padding: 60px 0;
+    }
+
+    .categories_products{
+        margin-bottom: 60px;
+    }
+
+    .categories_name {
+        margin: 0 auto 40px;
+    }
+
+    .grid {
+        gap: 100px;
+    }
+
+    .description_box {
+        max-width: 450px;
+    }
+
+    .products_info {
+        margin-right: 65px;
+    }
+
+    .categories_hand-craft {
+        top: 320px;
+        left: -45px;
+    }
+
+    .products_content {
+        padding: 180px 0 150px;
+    }
+
+    .pottery {
+        max-width: 950px;
+        margin: 0 auto 190px;
+    }
+
+    .products_background {
+        max-width: 450px;
+        margin-left: 5px;
+    }
+
+    .pottery-info::before {
+        left: 230px;
+        top: 65px;
+    }
+
+    .ceramic {
+        max-width: 950px;
+    }
+
+    .products_background-ceramic {
+        margin-right: 0;
+    }
+
+    .products_info-ceramic::after {
+        top: 550px;
+        left: 620px;
+    }
+
+    .featured {
+        top: 480px;
+        right: -40px;
+    }
+
+    .collection_content {
+        padding: 100px 0 85px;
+    }
+
+    .collection_name {
+        margin: 0 auto 40px;
+    }
+
+    .store_grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .news_content {
+        padding: 100px 0 110px;
+    }
+
+    .touch {
+        top: 300px;
+        right: -40px;
+    }
+
+    .contacts_content {
+        padding: 100px 0 69px;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    .container{
+        max-width: 750px;
+    }
+
+    .flex-menu{
+        flex-direction: column;
+    }
+
+    .flex-cart{
+        justify-content: start;
+    }
+
+    .checkbox-menu, .check-wrapper{
+        display: block;
+    }
+
+    .header_nav{
+        display: none;
+    }
+
+    .menu{
+        position: relative;
+    }
+
+    .checkbox{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+    }
+
+    .check{
+        transition: 400ms;
+    }
+
+    .checkbox-menu{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        z-index: 4;
+    }
+
+    .check-wrapper{
+        position: relative;
+        z-index: 3;
+    }
+
+    .checkbox-menu:checked ~ .check-wrapper > .check:first-of-type{
+        transform: rotate(45deg) translate(9px, 9.5px);
+    }
+
+    .checkbox-menu:checked ~ .check-wrapper > .check:nth-of-type(2){
+        opacity: 0;
+    }
+
+    .checkbox-menu:checked ~ .check-wrapper > .check:last-of-type{
+        transform: rotate(-45deg) translate(1px, -0.5px);
+    }
+
+    .checkbox-menu:checked ~ .header_nav{
+        display: block;
+        position: fixed;
+        background-color:rgb(119, 9, 9, 0.8);
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        border-radius: 5px;
+        z-index: 2;
+        width: 250px;
+        padding: 10px 0;
+        margin: 20px 670px;
+    }
+
+    .check{
+        width: 30px;
+        height: 3px;
+        background: rgba(0, 0, 0, 1);
+        opacity: 0.6;
+    }
+
+    .header_link {
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .header_link:hover, .cart_text:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .cart_logo {
+        margin-left: 90px;
+    }
+
+    .unique_background {
+        padding: 80px 0 300px;
+    }
+
+    .unique_info {
+        max-width: 100%;
+        width: 576px;
+        align-self: flex-start;
+    }
+
+    .unique_title{
+        font-size: 48px;
+        margin-bottom: 14px;
+    }
+    
+    .unique_title-1{
+        display: inline-block;
+        font-size: 68px;
+        line-height: 68px;
+    }
+
+    .unique_container > div:last-of-type {
+        right: -10px;
+        bottom: -150px;
+    }
+
+    .grid {
+        gap: 40px;
+    }
+
+    .products_content {
+        padding: 180px 0 100px;
+    }
+
+    .products_item {
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+    }
+
+    .item_img {
+        margin: 35px auto 0;
+    }
+
+    .flex-categories, .flex-pottery{
+        flex-direction: column;
+    }
+
+    .flex-ceramic{
+        flex-direction: column-reverse;
+    }
+
+    .description_box {
+        max-width: 450px;
+        text-align: center;
+    }
+
+    .description_text {
+        margin: 26px 0 40px;
+    }
+
+    .categories_content {
+        padding: 60px 0 30px;
+    }
+
+    .categories_hand-craft, .featured, .collection_products, .touch {
+        display: none;
+    }
+
+    .products_background {
+        align-self: flex-start;
+        margin: 0;
+    }
+
+    .products_info {
+        align-self: flex-end;
+        margin: 0;
+        text-align: end;
+    }
+
+    .products_title {
+        max-width: 100%;
+    }
+
+    .pottery-info::before {
+        left: 270px;
+    }
+
+    .products_info-ceramic::after {
+        top: 700px;
+        left: 220px;
+    }
+
+    .shopping {
+        padding: 121px 500px 150px 170px;
+    }
+
+    .news_content {
+        padding: 80px 0 85px;
+    }
+
+    .contacts_content {
+        padding: 70px 0 69px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .container{
+        max-width: 500px;
+    }
+
+    .flex-unique, .contacts_info-flex{
+        flex-direction: column;
+    }
+
+    .checkbox-menu:checked ~ .header_nav{
+        margin: 20px 405px;
+    }
+
+    .unique_background {
+        padding: 80px 0px;
+    }
+
+    .unique_container > div:last-of-type {
+        position: static;
+    }
+
+    .unique_img {
+        margin: 0;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    .products_background {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .products_info {
+        align-self: flex-end;
+        margin-top: 210px;
+        text-align: end;
+    }
+
+    .products_info-ceramic{
+        margin-top: 140px;
+    }
+
+    .products_info-ceramic::after {
+        top: 925px;
+    }
+
+    .store_grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 30px;
+    }
+
+    .shopping {
+        padding: 80px 500px 150px 140px
+    }
+
+    .shoping_text {
+        display: none;
+    }
+
+    .contacts_content {
+        padding: 50px 0;
+    }
+
+    .contacts_head {
+        margin-bottom: 40px;
+    }
+
+    .contacts_title {
+        margin: 0 auto 10px;
+    }
+
+    .contacts_text {
+        margin: 0 auto 20px;
+    }
+
+    .contacts_text-find {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:550px){
+    .container{
+        max-width: 430px;
+    }
+
+    .flex-news{
+        flex-direction: column;
+    }
+
+    .checkbox-menu:checked ~ .header_nav{
+        margin: 20px 240px;
+    }
+
+    .unique_background {
+        padding: 60px 0px;
+    }
+
+    .unique_title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .unique_title-1, .categories_title-1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .unique_text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .unique_img-vase{
+        width: 430px;
+        margin-top: 20px;
+    }
+
+    .categories_name {
+        margin: 0 auto 30px;
+    }
+
+    .categories_title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .grid {
+        gap: 25px;
+    }
+
+    .products_item {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+
+    .item_img {
+        margin: 20px auto 0;
+    }
+
+    .description_title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .description_text {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 20px 0 28px;
+    }
+
+    .pottery-info::before {
+        left: 160px;
+        top: 45px;
+    }
+
+    .products_info-ceramic::after {
+        top: 880px;
+        left: 100px;
+    }
+
+    .collection_content {
+        padding: 70px 0;
+    }
+
+    .collection_title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .store_grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 25px;
+    }
+
+    .store_item:nth-child(5), .store_item:nth-child(6){
+        display: none;
+    }
+
+    .shopping {
+        padding: 40px 100px 150px 40px;
+    }
+
+    .news_content {
+        padding: 50px 0;
+    }
+
+    .news_img {
+        margin-bottom: 20px;
+    }
+
+    .news_ptetitle {
+        margin: 0 auto 10px;
+        line-height: 12px;
+    }
+
+    .news_title {
+        margin: 0 auto 50px;
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .news_title-1 {
+        display: block;
+        font-size: 50px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .button-news {
+        width: 320px;
+        margin: 5px 0;
+    }
+
+    .input::placeholder{
+        text-align: center;
+    }
+
+    .news_input {
+        margin: 20px 0;
+    }
+
+    .contacts_content {
+        padding: 35px 0;
+    }
+
+    #up {
+        right: 30px;
+        bottom: 40px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .container{
+        max-width: 310px;
+    }
+
+    .checkbox-menu:checked ~ .header_nav{
+        width: 200px;
+        margin: 20px 195px;
+    }
+
+    .cart_logo {
+        margin-left: 60px;
+    }
+
+    .unique_background {
+        padding: 30px 0px;
+    }
+
+    .unique_pretitle {
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+
+    .unique_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .unique_title-1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .unique_text {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .button {
+        width: 310px;
+    }
+
+    .unique_img-vase {
+        margin-top: 30px;
+    }
+
+    .categories_pretitle {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .categories_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .categories_title-1 {
+        font-size: 32px;
+        line-height: 36px;
+        display: block;
+    }
+
+    .categories_products {
+        margin-bottom: 35px;
+    }
+
+    .products_content {
+        padding: 240px 0 100px;
+    }
+
+    .products_info {
+        text-align: center;
+    }
+
+    .pottery-info::before {
+        left: 125px;
+        top: 30px;
+    }
+
+    .products_info-ceramic::after {
+        left: 60px;
+    }
+
+    .collection_content {
+        padding: 35px 0;
+    }
+
+    .collection_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .store_item {
+        width: 300px;
+    }
+
+    .item_pic {
+        max-width: 300px;
+        margin: 0 auto 5px;
+    }
+
+    .shopping {
+        padding: 60px 100px 150px 40px;
+    }
+
+    .input {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .container{
+        max-width: 300px;
+    }
+
+    .checkbox-menu:checked ~ .header_nav{
+        margin: 20px 130px;
+    }
+
+    .unique_title {
+        font-size: 31px;
+    }
+
+    .button {
+        width: 290px;
+    }
+
+    .unique_img-vase {
+        width: 360px;
+    }
+
+    .categories_content {
+        padding: 30px 0 20px;
+    }
+
+    .categories_title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .grid {
+        gap: 15px;
+    }
+
+    .products_item {
+        width: 170px;
+        height: 170px;
+        border-radius: 170px;
+        border: 25px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .item_img {
+        margin: 25px auto 0;
+    }
+
+    .item_text {
+        display: none;
+    }
+
+    .description_box {
+        max-width: 290px;
+        text-align: center;
+    }
+
+    .description_title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .description_text {
+        line-height: 16px;
+        margin: 10px 0 15px;
+    }
+
+    .products_title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .products_text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .pottery-info::before {
+        left: 55px;
+    }
+
+    .products_info-ceramic::after {
+        top: 825px;
+        left: 5px;
+    }
+
+    .shopping {
+        padding: 70px 40px 140px 20px;
+    }
+
+    .news_title {
+        margin: 0 auto 20px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .news_title-1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .news_form {
+        max-width: 290px;
+    }
+
+    .input {
+        width: 290px;
+    }
+
+    .modal {
+        width: 290px;
+        text-align: center;
+        background: rgb(119, 9, 9, 1);
+        padding: 50px 30px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        max-width: 290px;   
+    }
+
+    .checkbox-menu:checked ~ .header_nav{
+        margin: 20px 105px;
+    }
+
+    .unique_title {
+        font-size: 30px;
+    }
+
+    .unique_img-vase {
+        width: 320px;
+    }
+
+    .pottery-info::before {
+        left: 40px;
+    }
+
+    .products_info-ceramic::after {
+        left: -20px;
+    }
+
+    .store_grid {
+        grid-template-rows: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .store_item:nth-child(4){
+        display: none;
+    }
+
+    .store_item {
+        width: 290px;
+    }
+
+    .item_pic {
+        max-width: 290px;
+        margin: 0 auto 5px;
+    }
+
+    .shopping_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .news_content {
+        padding: 30px 0;
+    }
+
+    .button-news {
+        margin: 10px 0;
+    }
+
+    .contacts_content {
+        padding: 30px 0;
+    }
+
+    .contacts_head {
+        margin-bottom: 25px;
+    }
+}
+
+    
+
+
